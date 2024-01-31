@@ -25,6 +25,11 @@ a
 
 /* HEADER1 */
 
+.navbar
+{
+    display: none;
+}
+
 .header
 {
     width: 1440px;

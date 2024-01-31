@@ -3,6 +3,12 @@
 {
  
     /* HEADER1 */
+
+    .navbar
+{
+    display: none;
+}
+
     
     .header
     {
