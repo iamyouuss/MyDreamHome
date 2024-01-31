@@ -1,0 +1,503 @@
+body
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/* button:hover :not(.favorite)
+{
+    background-color: rgba(11, 79, 108, 0.2);
+    color: rgb(11, 79, 108);
+} */
+
+a
+{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1300px) {
+
+/* HEADER1 */
+
+.header
+{
+    width: 1440px;
+    height: 129px;
+    background-color: rgba(11, 79, 108, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header-content
+{
+    width: 1400px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.black a
+{
+    color: black;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.15);
+    
+}
+
+.black a:hover
+{
+    color: rgba(11, 79, 108, 0.4);
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo img
+{
+    width: 125px;
+    height: 90px;
+    margin-right: 20px;
+    box-shadow: 8px 5px 15px rgba(11, 79, 108, 0.5);
+}
+
+.menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+}
+
+article a
+{
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+article a:hover 
+{
+    color: rgb(0, 0, 0);
+}
+
+.icon1, .icon2
+{
+    width: 30px;
+    margin-right: 15px;
+}
+
+/* HEADER2 */
+
+.header2
+{
+    width: 1440px;
+    height: 96px;
+    background-color: rgb(11, 79, 108, 0.3);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header2-content
+{
+    width: 1350px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.make
+{
+    display: none;
+}
+
+.search img
+{
+    width: 25px;
+}
+
+.search:hover
+{
+    background-image: url(icons/9035096_search_icon\ -\ Copie.svg);
+    width: 25px;
+    height: 25px;
+}
+
+
+.header2-content button
+{
+    background-color: rgb(11, 79, 108);
+    color: white;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.header2-content button:hover 
+{
+    background-color: rgba(11, 79, 108, 0.2);
+    color: rgb(11, 79, 108);
+}
+
+select, input
+{
+    height: 50px;
+    border-radius: 50px;
+    padding: 0 20px;
+    background-color:rgb(11, 79, 108, 0.01);
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+    font-size: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+
+
+/* MAIN */
+
+nav 
+{
+    width: 1440px;
+    height: 1600px;
+    background-color:rgb(11, 79, 108, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav img 
+{
+    width: 30px;
+    height: 30px;
+}
+
+section
+{
+    margin-top: 68px;
+    height: 1393px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 68px;
+}
+
+.grid
+{
+    display: flex;
+}
+
+.left
+{
+    /* background-image: url(img/house-4028391_640.jpg); */
+    height: 419px;
+    width: 378px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.first
+{
+    background-image: url(img/house-540796_640.jpg);
+}
+
+.second
+{
+    background-image: url(img/forest-5887115_640.jpg);
+}
+
+.third
+{
+    background-image: url(img/log-cabin-1886620_640.jpg);
+}
+
+.fourth
+{
+    background-image: url(img/house-4028391_640.jpg);
+}
+
+.fifth
+{
+    background-image: url(img/architecture-3309203_640.jpg);
+}
+
+.sixth
+{
+    background-image: url(img/lost-places-2759275_640.jpg);
+}
+
+.triangle
+{
+    position: absolute;
+    top:50%;
+    right: -1%;
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border: solid white 2px;
+}
+
+.favorite
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border: none;
+}
+
+.favorite :hover
+{
+    background-image: url(icons/8542029_heart_love_like_icon.svg);
+    /* background-size: cover; */
+    width: 28px;
+    height: 28px;
+}
+
+/* .img
+{
+    background-image: url(icons/heart_icon.svg);
+    width: 30px;
+    height: 30px;
+} */
+
+.right
+{
+    background-color: white;
+    width: 239px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+}
+
+.border
+{
+    height: 391px;
+    width: 207px;
+    border: solid 0.5px rgba(11, 79, 108, 0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 500;
+}
+
+.border a
+{
+    color: rgba(0, 0, 0, 0.427);
+    font-weight: 600;
+    
+}
+
+.border a:hover
+{
+    color: rgb(11, 79, 108);
+}
+
+
+.border button
+{
+    width: 181px;
+    height: 44px;
+    background-color: rgb(11, 79, 108);
+    color: white;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px grey;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.right button:hover
+{
+    background-color: rgba(11, 79, 108, 0.2);
+    color: rgb(0, 0, 0);
+}
+
+
+.border p
+{
+    padding: 0 10px;
+    font-weight: 100;
+}
+
+.city, .sq, .price
+{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.city, .price
+{
+    font-size: 20px;
+}
+
+.sq, .price
+{
+    color: rgb(11, 79, 108);
+}
+
+.bottom-page
+{
+    width: 1300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.pages
+{
+    padding: 10px 340px 20px 0px;
+    color: black;
+    font-weight: 600;
+}
+
+.pages span
+{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(11, 79, 108);
+}
+
+.post
+{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.post article
+{
+    margin-left: 30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: rgb(11, 79, 108);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.post article:hover
+{
+    color: rgb(11, 79, 108);
+    background-color: rgba(11, 79, 108, 0.258);
+}
+
+/* FOOTER */
+
+footer 
+{
+    width: 1440px;
+    height: 273px;
+    background-color:rgb(11, 79, 108, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content
+{
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.footer-content img
+{
+    height: 35px;
+}
+
+footer a 
+{
+   color: black; 
+}
+
+footer a:hover
+{
+    color: rgba(0, 0, 0, 0.396);
+    
+}
+
+ul 
+{
+    margin-block-start: 0;
+    padding-inline-start: 0;
+}
+
+.section li
+{
+    padding-bottom: 20px;
+}
+
+
+.section span
+{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.rs 
+{
+    margin-top: 30px;
+}
+
+.rs img
+{
+    margin-right: 10px;
+}
+
+.app 
+{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.app img
+{
+    margin-left: 20px;
+}
+
+.app a
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+}
