@@ -1,7 +1,4 @@
-body
-{
-    font-size: ;
-}
+
 
 @media screen and (max-width: 768px) {
  
@@ -221,11 +218,6 @@ body
     {
         display: flex;
         align-items: center;
-    }
-    
-    article a
-    {
-        /* color: rgba(0, 0, 0, 0.5); */
     }
 
     .none p
@@ -520,11 +512,6 @@ body
         font-size: 15px;
     }
     
-    .city, .price
-    {
-        /* font-size: 20px; */
-    }
-    
     .sq, .price
     {
         color: rgb(11, 79, 108);
@@ -540,7 +527,6 @@ body
     }
     .pages
     {
-        /* padding: 10px 170px 20px 0px; */
         color: black;
         font-weight: 600;
         font-size: 15px;
@@ -652,16 +638,6 @@ footer a:hover
         left: 0;
         bottom: 0;
     }
-    
-    .rs 
-    {
-       
-    }
-    
-    /* .rs img
-    {
-        margin-right: 10px;
-    } */
     
     .app 
     {
