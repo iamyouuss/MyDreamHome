@@ -302,7 +302,6 @@ section
 {
     color: rgba(11, 79, 108, 0.5);
     font-weight: 600;
-    
 }
 
 .border a:hover
@@ -336,6 +335,7 @@ section
 {
     padding: 0 10px;
     font-weight: 100;
+    width: 160px;
 }
 
 .city, .sq, .price
